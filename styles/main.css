@@ -722,6 +722,7 @@ h1, h2, h3, h4, h5, h6, ul, p{
   }
   .footer-logo{
     margin-bottom: 24px;
+    width: 96px;
   }
   .footer-info{
     flex-direction: column;
