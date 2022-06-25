@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyTeam</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="./styles/normilize.css">
-  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/contact.css">
 </head>
 <body>
   
@@ -51,125 +51,67 @@
       </div>
     </div>
   </header>
-
+  
   <main>
-    <section class="intro">
-      <div class="container">
-        <div class="intro-inner">
-          <h2 class="intro-title">
-            Find the best 
-            <span class="intro-color">
-              talent
-            </span>              
-          </h2>
-
-          <p class="intro-text">
-            Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section  class="manage">
-      <div class="container">
-        <div class="manage-inner">
-          <h3 class="manage-title">
-            Build & manage distributed teams like no one else.
-          </h3>
-
-          <ul class="manage-list">
-            <li class="manage-item">
-              <p class="manage-name">
-                Experienced Individuals
-              </p>
-
-              <p class="manage-text">
-                Our network is made up of highly experienced professionals who are passionate about what they do.
-              </p>
-            </li>
-
-            <li class="manage-item">
-              <p class="manage-name">
-                Easy to Implement
-              </p>
-
-              <p class="manage-text">
-                Our processes have been refined over years of implementation meaning our teams always deliver.
-              </p>  
-            </li>
-
-            <li class="manage-item">
-              <p class="manage-name">
-                Enhanced Productivity
-              </p>
-
-              <p class="manage-text">
-                Our customized platform with in-built analytics helps you manage your distributed teams.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="stories">
-      <div class="container">
-        <div class="stories-inner">
-          <h3 class="stories-heading">
-            Delivering real results for top companies. Some of our <span class="stories-heading-span">success
-              stories.</span>
-          </h3>
-
-          <ul class="stories-list">
-            <li class="stories-item">
-              <blockquote class="stories-quote">
-                “The team perfectly fit the specialized skill set required. They focused on the most essential features
-                helping us launch the platform eight months faster than planned.”
-              </blockquote>
-
-              <p class="stories-name">Kady Baker</p>
-              <p class="stories-position">Product Manager at Bookmark</p>
-
-              <img class="stories-img" src="./img/kady-baker.png" alt="Kady Baker" width="62" height="62">
-            </li>
-            <li class="stories-item">
-              <blockquote class="stories-quote">
-                “We needed to automate our entire onboarding process. The team came in and built out the whole journey.
-                Since going live, user retention has gone through the roof!”
-              </blockquote>
-
-              <p class="stories-name">Aiysha Reese</p>
-              <p class="stories-position">Founder of Manage</p>
-
-              <img class="stories-img" src="./img/aiysha-reese.png" alt="Aiysha Reese" width="62" height="62">
-            </li>
-            <li class="stories-item">
-              <blockquote class="stories-quote">
-                “Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The
-                launch was an instant success with 100k downloads in the first month.”
-              </blockquote>
-
-              <p class="stories-name">Arthur Clarke</p>
-              <p class="stories-position">Co-founder of MyPhysio</p>
-
-              <img class="stories-img" src="./img/arthur-clarke.png" alt="Arthur Clarke" width="62" height="62">
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
     <section class="contact">
       <div class="container">
-        <div class="contact-inner">
-          <h2 class="visually-hidden">Question</h2>
-          <p class="contact-text">
-            Ready to get started?
-          </p>
+        <div class="contact__inner">
+          <div class="contact__box">
+            <h2 class="contact__title">
+              Contact
+            </h2>
 
-          <a href="./contact.html" class="contact-link">
-            contact us
-          </a>
+            <p class="contact__text">
+              Ask us about 
+            </p>
+
+            <ul class="contact__list">
+              <li class="contact__item">
+                <p class="contact__item-text">
+                  The quality of our talent network
+                </p>
+              </li>
+  
+              <li class="contact__item">
+                <p class="contact__item-text">
+                  Usage & implementation of our software
+                </p>
+              </li>
+  
+              <li class="contact__item">
+                <p class="contact__item-text">
+                  How we help drive innovation
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact__form" action="https://echo.htmlacademy.ru" method="post">
+            <label class="contact__label">
+              <input type="text" class="contact__input" placeholder="Name" name="user_name" autocomplete="off" required>
+            </label>
+           
+            <label class="contact__label">
+              <input type="email" class="contact__input" name="user_email" placeholder="Email Address" autocomplete="off" required>
+            </label>
+
+            <label class="contact__label">
+              <input type="text" class="contact__input" name="user_company-name" placeholder="Company Name" autocomplete="off" required>
+            </label>
+
+            <label class="contact__label">
+              <input type="text" class="contact__input" name="user_title" placeholder="Title" autocomplete="off" required>
+            </label> 
+
+            <label class="contact__label">
+              <textarea class="contact__textarea" name="user_text" placeholder="Message" autocomplete="off" required></textarea>
+            </label>
+
+            <button class="contact__button" type="submit">
+              submit
+            </button>
+
+          </form>
         </div>
       </div>
     </section>
@@ -257,5 +199,6 @@
       </div>
     </div>
   </footer>
+
 </body>
 </html>
